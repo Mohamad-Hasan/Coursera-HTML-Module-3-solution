@@ -40,12 +40,13 @@ nav a:hover, #navbarNav a:hover {
  }
 
  #main-content{
- 	background-color: rgba(184, 220, 56, .5);
- 	border: 1px solid #3C071E;
- 	border-radius: 5px;
  	margin-bottom: 5%;
  }
-
+.menu-item{
+	background-color: rgba(184, 220, 56, .5);
+	border: 1px solid #3C071E;
+ 	border-radius: 5px;
+}
  h1, h2{
  	color: #3C071E;
  }
@@ -59,4 +60,14 @@ nav a:hover, #navbarNav a:hover {
 section a:hover {
 	text-decoration: none;
 	color:#3C071E;
+}
+
+section {
+	padding: 15px;
+}
+
+#koko{
+	background-color: rgba(184, 220, 56, .5);
+	border: 1px solid #3C071E;
+ 	border-radius: 5px;
 }
