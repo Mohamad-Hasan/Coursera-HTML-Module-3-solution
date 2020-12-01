@@ -1,0 +1,62 @@
+.navbar {
+	background-color: #1F0611;
+}
+nav a.navbar-brand {
+	color: #B8DC38;
+	text-decoration: none;
+	font-size: 1.6em;
+	font-weight: 500;
+}
+
+#navbarNav a.nav-link{
+	color: #B8DC38;
+	text-decoration: none;
+}
+
+nav a:hover, #navbarNav a:hover {
+	text-decoration: none;
+}
+
+#navbarNav a:hover{
+	border: 2px solid #B8DC38;
+	border-radius: 50px;
+}
+ .hr{
+ 	background-color: #B8DC38;
+ 	width: 80%;
+ }
+
+ nav button.navbar-toggler{
+ 	border-color: #B8DC38;
+ }
+ 
+ nav span.navbar-toggler-icon {
+ 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(184, 220, 56, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }
+
+ #navbar-menu {
+ 	background-color: #3C071E;
+ 	border-radius: 10px;
+ }
+
+ #main-content{
+ 	background-color: rgba(184, 220, 56, .5);
+ 	border: 1px solid #3C071E;
+ 	border-radius: 5px;
+ 	margin-bottom: 5%;
+ }
+
+ h1, h2{
+ 	color: #3C071E;
+ }
+
+.back-to-top {
+	text-decoration: none;
+	color:#3C071E;
+	float: right;
+}
+
+section a:hover {
+	text-decoration: none;
+	color:#3C071E;
+}
